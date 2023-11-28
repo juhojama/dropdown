@@ -1,0 +1,11 @@
+{
+  "name": "@juhojama/dropdown",
+  "version": "1.0.0",
+  "description": "Dropdown module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juho Jama",
+  "license": "MIT"
+}
