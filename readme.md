@@ -1,6 +1,6 @@
 # Dropdown
 
-Word in progress
+A work-in-progress dropdown module meticulously crafted to seamlessly integrate with predominantly vanilla Javascript applications.
 
 ## Markup
 
