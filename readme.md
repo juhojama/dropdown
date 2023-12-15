@@ -27,21 +27,21 @@ Use it with simple text values:
 Or with span element and text:
 
 ```HTML
-          <div class="dropdown-button">
-            <button>Choose an emoji</button>
-          </div>
-          <div class="dropdown">
-            <div class="option" data-value="1">
-              <span>👾</span> Games
-            </div>
-            <div class="option" data-value="2">
-              <span>🤖</span> Robots
-            </div>
-            <div class="option" data-value="3">
-              <span>🎃</span> Pumpkins
-            </div>
-          </div>
-          <input type="hidden" class="dropdown-value">
+<div class="dropdown-button">
+  <button>Choose an emoji</button>
+</div>
+<div class="dropdown">
+  <div class="option" data-value="1">
+    <span>👾</span> Games
+  </div>
+  <div class="option" data-value="2">
+    <span>🤖</span> Robots
+  </div>
+  <div class="option" data-value="3">
+    <span>🎃</span> Pumpkins
+  </div>
+</div>
+<input type="hidden" class="dropdown-value">
 ```
 
 ## Initialise
