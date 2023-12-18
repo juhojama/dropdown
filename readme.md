@@ -53,8 +53,7 @@ const Dropdown = require('@juhojama/dropdown')
 ```
 
 ```javascript
-let dropdown = new Dropdown(element)
-dropdown.setListener()
+new Dropdown({ el: element, useTabIndex: true }).init()
 ```
 
 You can monitor changes in dropdown by following ways:
