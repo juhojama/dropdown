@@ -1,6 +1,6 @@
 # Dropdown
 
-A work-in-progress dropdown module meticulously crafted to seamlessly integrate with predominantly vanilla Javascript applications.
+A work-in-progress dropdown module crafted to seamlessly integrate with predominantly vanilla Javascript applications.
 
 ## Markup
 
@@ -9,6 +9,31 @@ Use it with simple text values:
 ```HTML
 <div class="dropdown-button">
     <button>Choose an option</button>
+</div>
+<div class="dropdown">
+    <div class="option" data-value="1">
+        Option 1
+    </div>
+    <div class="option" data-value="2">
+        Option 2
+    </div>
+    <div class="option" data-value="3">
+        Option 3
+    </div>
+</div>
+<input type="hidden" class="dropdown-value">
+```
+
+With caret/chevron or any other svg icon:
+
+```HTML
+<div class="dropdown-button">
+    <button>
+        Choose an option
+        <span class="caret">
+            <!-- Your <svg> here -->
+        </span>
+    </button>
 </div>
 <div class="dropdown">
     <div class="option" data-value="1">
