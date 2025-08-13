@@ -57,13 +57,13 @@ Or with span element and text:
 </div>
 <div class="dropdown">
   <div class="option" data-value="1">
-    <span>👾</span> Games
+    <span data-value="1">👾</span> Games
   </div>
   <div class="option" data-value="2">
-    <span>🤖</span> Robots
+    <span data-value="2">🤖</span> Robots
   </div>
   <div class="option" data-value="3">
-    <span>🎃</span> Pumpkins
+    <span data-value="3">🎃</span> Pumpkins
   </div>
 </div>
 <input type="hidden" class="dropdown-value">
